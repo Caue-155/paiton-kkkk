@@ -1,0 +1,1 @@
+metro = float(input(f"Digite o valor em metro para ser convertido em cm: "))  conversao = metro * 100  print("\nConversão", conversao)

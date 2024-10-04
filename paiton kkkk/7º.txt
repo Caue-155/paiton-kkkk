@@ -1,0 +1,1 @@
+area = float(input (f"Digite o comprimento do quadrado: "))  area = area ** 2  areaDobrada = area * 2  print(f"Area do quadrado é: {areaDobrada:.2f}")
