@@ -1,0 +1,4 @@
+tempFahrenheit = int(input("Digite a temperatura em  graus fahrenheit: "))  
+tempCelcius = 5 * ((tempFahrenheit - 32) / 9)  
+
+print(f"A temperatura em graus celsius é: {tempCelcius:.0f}°")

@@ -1,0 +1,5 @@
+ganhoHora = float(input(f"Quanto você ganha por hora: R$ "))  
+horasTrabalhadaMes = float(input(f"\nQuantas horas você trabalhou no mês: "))  
+salario = ganhoHora * horasTrabalhadaMes  
+
+print(f"\nSálario: R$ {salario:.2f}")

@@ -1,0 +1,11 @@
+sexo = input("digite seu sexo M ou F: ").upper() 
+h = float (input(f"Digite a sua altura em metros: "))   
+
+if (sexo == "M"):     
+	pesoIdealHomem = (72.7 * h) - 58     
+	print(f"\n\nO seu peso ideal é: {pesoIdealHomem:.2f}kg") 
+elif (sexo == "F"):      
+	pesoIdealMulher = (62.1 * h) - 44.7     
+	print(f"\n\nO seu peso ideal é: {pesoIdealMulher:.2f}kg") 
+else:     
+	print("\n\nSexo inválido")

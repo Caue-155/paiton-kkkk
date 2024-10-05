@@ -1,0 +1,16 @@
+numInt1 = int(input("Digite o 1º número inteiro: ")) 
+numInt2 = int(input("\nDigite o 2º número inteiro: ")) 
+numFloat = float(input("\nDigite um número real: "))  
+
+dobroInt1 = numInt1 * 2 
+metadeInt2 = numInt1 / 2 
+triploInt1 = numInt1 * 3 
+cuboFloat = numFloat ** 3  
+
+letraA = dobroInt1 * metadeInt2  
+letraB = triploInt1 + numFloat  
+letraC = cuboFloat  
+
+print(f"\n\nO produto do dobro do primeiro com metade do segundo: {letraA:.0f}") 
+print(f"\nA soma do triplo do primeiro com o terceiro: {letraB:.2f}") 
+print(f"\nO terceiro elevado ao cubo: {letraC:.2f}")
